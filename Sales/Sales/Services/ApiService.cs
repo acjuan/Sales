@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Sales.Services
 {
-   public class ApiService
+    using System.Threading.Tasks;
+    using Common.Models;
+
+    public class ApiService
     {
-       public async Task<Response>
+       public async Task<Response> GetList<T>(string urlBase,string prefix,string controller)
+        {
+
+        }
     }
 }
